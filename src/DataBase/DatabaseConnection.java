@@ -1,8 +1,8 @@
+package DataBase;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.Statement;
 import java.sql.SQLException;
 import javax.swing.JOptionPane;
 
@@ -33,7 +33,7 @@ public class DatabaseConnection {
         try {
             String sql = "INSERT INTO recipes(name_recipe, ingredients, score) VALUES (?,?,?)";
             PreparedStatement st = connection.prepareStatement(sql);
-            st.setString(1, r.getNameRecipe();
+            st.setString(1, r.getNameRecipe());
             st.setString(2, r.getIngredients());
             st.setInt(3, r.getScore());
             st.execute();
