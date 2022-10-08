@@ -3,7 +3,6 @@ package recipesViews;
 import DataBase.DatabaseConnection;
 import DataBase.Recipe;
 import java.awt.event.ActionEvent;
-import recipesViews.RecetaGUI;
 
 public class Receta {
      
@@ -15,7 +14,7 @@ public class Receta {
     public Receta(){
         interfaz = new RecetaGUI();
         addListeners();
-        DatabaseConnection connector = new DatabaseConnection();
+        db = new DatabaseConnection();
     }
     
     private void addListeners(){
