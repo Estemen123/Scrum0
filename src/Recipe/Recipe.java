@@ -1,3 +1,7 @@
+package Recipe;
+
+
+
 public class Recipe {
     private int id,
                 score;
