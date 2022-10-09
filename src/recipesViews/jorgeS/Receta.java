@@ -1,4 +1,4 @@
-package recipesViews;
+package recipesViews.jorgeS;
 
 import DataBase.DatabaseConnection;
 import DataBase.Recipe;

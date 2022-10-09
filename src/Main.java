@@ -1,4 +1,4 @@
-import recipesViews.Receta;
+import recipesViews.jorgeS.Receta;
 
 public class Main {
 
