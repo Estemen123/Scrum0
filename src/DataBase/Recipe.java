@@ -1,3 +1,5 @@
+package DataBase;
+
 public class Recipe {
     private int id,
                 score;
