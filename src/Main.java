@@ -29,7 +29,7 @@ public class Main {
         //new winJLZ().setVisible(true);
         //new RecipeGUI().setVisible(true);
         //new Receta();
-         //new RecetasGUI.setVisible(true);
+         new RecetasGUI().setVisible(true);
 
     }
    
