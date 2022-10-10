@@ -1,12 +1,12 @@
-package RecipeIvan;
-
+package recipesViews.IvanPalacios;
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
 
-import Recipe.Recipe;
-import Database.DatabaseConnection;
+
+import DataBase.DatabaseConnection;
+import DataBase.Recipe;
 
 /**
  *
@@ -44,7 +44,7 @@ public class RecipeGUI extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        img.setIcon(new javax.swing.ImageIcon(getClass().getResource("/RecipeIvan/Images/©️Negative Food Photographer.jpeg"))); // NOI18N
+        img.setIcon(new javax.swing.ImageIcon(getClass().getResource("/recipesViews/IvanPalacios/Images/©️Negative Food Photographer.jpeg"))); // NOI18N
         img.setText("jLabel1");
 
         tittle.setFont(new java.awt.Font("Roboto Medium", 0, 18)); // NOI18N
