@@ -9,6 +9,7 @@ import recepieView.ventJLZE;
 
 import recipesViews.IvanPalacios.RecipeGUI;
 import recipesViews.jorgeS.Receta;
+import recipesViews.ledezma.winJLZ;
 
 
 public class Main {
@@ -18,7 +19,7 @@ public class Main {
         // TODO code application logic here
         
 
-        
+        new winJLZ().setVisible(true);
         new RecipeGUI().setVisible(true);
         new Receta();
 
