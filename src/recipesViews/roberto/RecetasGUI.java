@@ -2,9 +2,18 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
+<<<<<<< HEAD
 package RecetasGUI;
 
 import RecetasDAL.Recetas;
+=======
+//package RecetasGUI;
+package recipesViews.roberto;        ;
+
+import DataBase.DatabaseConnection;
+import DataBase.Recipe;
+//import RecetasDAL.Recetas;
+>>>>>>> fe4f0e583020a6a4dd089b36dfc378884c7eaf04
 import java.awt.TextArea;
 
 /**
@@ -40,6 +49,10 @@ public class RecetasGUI extends javax.swing.JFrame {
         jButton1 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+<<<<<<< HEAD
+=======
+        setBackground(new java.awt.Color(255, 255, 255));
+>>>>>>> fe4f0e583020a6a4dd089b36dfc378884c7eaf04
 
         jLabel1.setText("Nombre del plato :");
 
@@ -126,9 +139,13 @@ public class RecetasGUI extends javax.swing.JFrame {
          String nameRecipe = jTextField1.getText();
         String ingredients = jTextArea1.getText();
         int score = Integer.parseInt(jTextField2.getText());
+<<<<<<< HEAD
 
         Recetas recipe = new Recetas(nameRecipe, ingredients, score);
         recipe.insertRecipe();
+=======
+        new DatabaseConnection().insertRecipe(new Recipe(nameRecipe, ingredients, score));
+>>>>>>> fe4f0e583020a6a4dd089b36dfc378884c7eaf04
     }//GEN-LAST:event_jButton1ActionPerformed
 
     /**

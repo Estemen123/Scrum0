@@ -11,6 +11,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
 
+import recipesViews.roberto.RecetasGUI;
 import recipesViews.Denis.Controller;
 import recipesViews.IvanPalacios.RecipeGUI;
 import recipesViews.jorgeS.Receta;
@@ -28,7 +29,7 @@ public class Main {
         //new winJLZ().setVisible(true);
         //new RecipeGUI().setVisible(true);
         //new Receta();
-
+         //new RecetasGUI.setVisible(true);
 
     }
    
