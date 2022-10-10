@@ -1,4 +1,8 @@
+
 DROP DATABASE if EXISTS receta; 
+
+DROP DATABASE if EXISTS recipe; 
+
 CREATE DATABASE recipe;
 
 use recipe;

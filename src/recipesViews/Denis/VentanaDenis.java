@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package recipesViews;
+package recipesViews.Denis;
 
 import java.sql.SQLException;
 import java.util.logging.Level;
@@ -11,7 +11,7 @@ import javax.swing.JButton;
 import javax.swing.JOptionPane;
 import javax.swing.JTextField;
 
-public class Window extends javax.swing.JFrame {
+public class VentanaDenis extends javax.swing.JFrame {
 
     private javax.swing.JButton botonGuardar;
     private javax.swing.JButton botonSalir;
@@ -24,7 +24,7 @@ public class Window extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel4;
     private javax.swing.JPanel jPanel1;
 
-    public Window() {
+    public VentanaDenis() {
         this.setTitle("Sistemas de informacion 2");
         this.setLocationRelativeTo(null);
         this.setVisible(true);

@@ -30,6 +30,7 @@ public class DatabaseConnection {
     }
 
     public void insertRecipe(Recipe r) {
+
         try {
             String sql = "INSERT INTO recipes(name_recipe, ingredients, score) VALUES (?,?,?)";
             PreparedStatement st = connection.prepareStatement(sql);
@@ -39,7 +40,10 @@ public class DatabaseConnection {
             st.execute();
             JOptionPane.showMessageDialog(null, "Receta guardada exitosamente.");
         } catch (SQLException ex) {
+
             JOptionPane.showMessageDialog(null, "La receta ya existe en la BD.");
         }
+
     }
+
 }

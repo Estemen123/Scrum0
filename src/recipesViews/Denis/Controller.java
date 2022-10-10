@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package recipesViews;
+package recipesViews.Denis;
 
 import DataBase.DatabaseConnection;
 import DataBase.Recipe;
@@ -17,10 +17,10 @@ import javax.swing.JOptionPane;
 public class Controller {
 
     private DatabaseConnection connector;
-    private Window interfaz;
+    private VentanaDenis interfaz;
 
     public Controller() {
-        interfaz = new Window();
+        interfaz = new VentanaDenis();
         connector = new DatabaseConnection();
         addListeners();
     }
