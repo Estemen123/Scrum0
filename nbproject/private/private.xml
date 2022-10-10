@@ -3,7 +3,14 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+<<<<<<< HEAD
             <file>file:/D:/git_sisinf2/champ/scrumZero/Scrum0/src/recepieView/ventJLZE.java</file>
+=======
+            <file>file:/I:/Mi%20unidad/UMSS/2-2022/SistemasDeInformacion2/Git/Scrum0/src/DataBase/DatabaseConnection.java</file>
+            <file>file:/I:/Mi%20unidad/UMSS/2-2022/SistemasDeInformacion2/Git/Scrum0/src/Main.java</file>
+            <file>file:/I:/Mi%20unidad/UMSS/2-2022/SistemasDeInformacion2/Git/Scrum0/src/recipesViews/IvanPalacios/RecipeGUI.java</file>
+            <file>file:/I:/Mi%20unidad/UMSS/2-2022/SistemasDeInformacion2/Git/Scrum0/src/DataBase/Recipe.java</file>
+>>>>>>> master
         </group>
     </open-files>
 </project-private>
