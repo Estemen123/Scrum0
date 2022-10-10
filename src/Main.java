@@ -1,7 +1,5 @@
 
 
-import recepieView.ventJLZE;
-
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
@@ -9,6 +7,7 @@ import recepieView.ventJLZE;
 
 import recipesViews.IvanPalacios.RecipeGUI;
 import recipesViews.jorgeS.Receta;
+import recipesViews.josue.ventanaJosue;
 import recipesViews.ledezma.winJLZ;
 
 
@@ -22,7 +21,7 @@ public class Main {
         new winJLZ().setVisible(true);
         new RecipeGUI().setVisible(true);
         new Receta();
-
+        new ventanaJosue().setVisible(true);
     }
    
 }
